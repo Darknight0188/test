@@ -101,3 +101,7 @@ a{
     color: #de6581;
     text-decoration: none;
 }
+footer{
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
