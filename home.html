@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>
     <title>Yoko Kitchens</title>
 </head>
 <body>
     <div class="wrapper">
         <header>
             <h1>Yoko' Kitchen</h1>
-            <nav>
+            <nav class="wow bounceInDown"> 
                 <ul>
                     <li><a href="" class="current">Home</a></li>
                     <li><a href="">classes</a></li>
@@ -20,7 +22,7 @@
                 </ul>
             </nav>
         </header>
-        <section class="courses">
+        <section class="courses wow bounceInRight">
             <article>
                 <figure>
                     <img src="images/bok-choi.jpg" alt="Bok Choi">
@@ -69,5 +71,6 @@
             &copy; 2011 Yoko's Kitchen
         </footer>
     </div>
+    <script> new WOW().init(); </script>
 </body>
 </html>
